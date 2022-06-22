@@ -19,7 +19,8 @@
   "dependencies": {
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1"
+    "@oclif/plugin-plugins": "^2.0.1",
+    "axios": "^0.27.2"
   },
   "devDependencies": {
     "@oclif/test": "^2",
@@ -48,9 +49,7 @@
     ],
     "topicSeparator": " ",
     "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
+
     }
   },
   "scripts": {
